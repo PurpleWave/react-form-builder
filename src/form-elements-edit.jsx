@@ -263,7 +263,7 @@ export default class FormElementsEdit extends React.Component {
           </div>
         }
 
-        { this.props.element.hasOwnProperty('step') &&
+        {/* { this.props.element.hasOwnProperty('step') &&
           <div className="form-group">
             <div className="form-group-range">
               <label className="control-label" htmlFor="rangeStep">Step</label>
@@ -296,7 +296,7 @@ export default class FormElementsEdit extends React.Component {
               <input id="defaultSelected" type="number" className="form-control" defaultValue={this.props.element.default_value} onBlur={this.updateElement.bind(this)} onChange={this.editElementProp.bind(this, 'default_value', 'value')} />
             </div>
           </div>
-        }
+        } */}
         { this.props.element.hasOwnProperty('static') && this.props.element.static &&
           <div className="form-group">
             <label className="control-label">Text Style</label>

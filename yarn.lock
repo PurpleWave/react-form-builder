@@ -6020,7 +6020,7 @@ react-addons-test-utils@^0.14.2:
   resolved "https://registry.yarnpkg.com/react-addons-test-utils/-/react-addons-test-utils-0.14.8.tgz#dcddc039e71fc3c81d80338e53a3714f14d41e1f"
   integrity sha1-3N3AOecfw8gdgDOOU6NxTxTUHh8=
 
-react-bootstrap-slider@2.2.2:
+react-bootstrap-slider@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/react-bootstrap-slider/-/react-bootstrap-slider-2.2.2.tgz#e56bd570fa16b19661762022dd76419a0ef7d726"
   integrity sha512-4j69ruXFiOCRL97+eO3otgIeHmBaNPelf2wgK6UljjD8EfpLL3yOmLHulWogEQFeXHm0i2wr42qXdTyKClYoKA==

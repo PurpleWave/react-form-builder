@@ -269,7 +269,6 @@ export default class ReactForm extends React.Component {
         case 'RadioButtons':
         case 'Rating':
         case 'Tags':
-        case 'Range':
           return this.getInputElement(item);
         case 'Signature':
           return <Signature ref={c => this.inputs[item.field_name] = c} read_only={this.props.read_only || item.readOnly} mutable={true} key={`form_${item.id}`} data={item} defaultValue={this._getDefaultValue(item)} />;

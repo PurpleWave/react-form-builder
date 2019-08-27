@@ -193,19 +193,19 @@ export default class Toolbar extends React.Component {
         file_path: '',
         _href: '',
       },
-      {
-        key: 'Range',
-        name: 'Range',
-        icon: 'fa fa-sliders',
-        label: 'Placeholder Label',
-        field_name: 'range_',
-        step: 1,
-        default_value: 3,
-        min_value: 1,
-        max_value: 5,
-        min_label: 'Easy',
-        max_label: 'Difficult',
-      },
+      // {
+      //   key: 'Range',
+      //   name: 'Range',
+      //   icon: 'fa fa-sliders',
+      //   label: 'Placeholder Label',
+      //   field_name: 'range_',
+      //   step: 1,
+      //   default_value: 3,
+      //   min_value: 1,
+      //   max_value: 5,
+      //   min_label: 'Easy',
+      //   max_label: 'Difficult',
+      // },
       {
         key: 'Camera',
         name: 'Camera',
@@ -262,14 +262,14 @@ export default class Toolbar extends React.Component {
       elementOptions.file_path = item.file_path;
     }
 
-    if (item.key === 'Range') {
-      elementOptions.step = item.step;
-      elementOptions.default_value = item.default_value;
-      elementOptions.min_value = item.min_value;
-      elementOptions.max_value = item.max_value;
-      elementOptions.min_label = item.min_label;
-      elementOptions.max_label = item.max_label;
-    }
+    // if (item.key === 'Range') {
+    //   elementOptions.step = item.step;
+    //   elementOptions.default_value = item.default_value;
+    //   elementOptions.min_value = item.min_value;
+    //   elementOptions.max_value = item.max_value;
+    //   elementOptions.min_label = item.min_label;
+    //   elementOptions.max_label = item.max_label;
+    // }
 
     if (item.defaultValue) { elementOptions.defaultValue = item.defaultValue; }
 
